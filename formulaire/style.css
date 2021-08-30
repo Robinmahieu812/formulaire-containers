@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    color: #bfbfbf;
+    background: black;
+    font-family: 'Futura-Medium', 'Futura', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: yellow;
+}
+
+.region {
+    margin-bottom:0px;
+}
+
+.departement {
+    margin-left:50px;
+    color:lightblue;
+}
+
+#global {
+    min-height: 100%; /*Voir commentaire sur html et body plus haut */
+    background: #333534;
+    width: 70%;
+    margin: auto; /*Permet de centrer la div*/
+    text-align: justify;
+    padding: 5px 20px;
+}
+
+#contenu {
+    margin-bottom: 30px;
+}
+
+#titreBlog, #piedFormulaire {
+    text-align: center;
+}
+td{
+    border: 2px solid white;
+    padding: 10px 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.ligne-impaire{
+    background-color: red;
+}
+
+.ligne-paire{
+    background-color: #EEE;
+}

@@ -1,0 +1,20 @@
+<!-- Affichage -->
+<!DOCTYPE html>
+  <meta http-equiv="Content_Type" contant="text/html; charset= UTF-8" />
+  <meta charset="utf-8"/>
+<html>
+<head>
+    <title>Formulaire 2</title>
+</head>
+<body>
+   <p>Veuillez vous identifier</p> 
+<form method="post" action="formulaire_action2.php" >
+    Nom:    <input type="text" name="nom" /><br />
+    Prénom: <input type="text" name="prenom" /><br />
+    Année:  <select name="annee">
+        <?php
+        for($i=1970; $i<=date("Y"); $i++)
+        ?>
+</form>
+</body>
+</html>
